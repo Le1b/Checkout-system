@@ -1,0 +1,31 @@
+{
+  "name": "checkout-system",
+  "version": "0.1.0",
+  "author": "Yurii Myshliaiev",
+  "private": true,
+  "dependencies": {
+    "axios": "0.18.0",
+    "bootstrap": "4.1.3",
+    "enzyme": "3.6.0",
+    "enzyme-adapter-react-16": "1.5.0",
+    "jest-enzyme": "6.0.4",
+    "moxios": "^0.4.0",
+    "react": "16.5.0",
+    "react-dom": "16.5.0",
+    "react-redux": "5.0.7",
+    "react-scripts": "1.1.5",
+    "react-test-renderer": "16.5.0",
+    "redux": "4.0.0",
+    "redux-devtools-extension": "2.13.5",
+    "redux-mock-store": "1.5.3",
+    "redux-thunk": "2.3.0"
+  },
+  "scripts": {
+    "prestart": "yarn",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "test:debug": "react-scripts --inspect-brk test --runInBand --env=jsdom"
+  }
+}
